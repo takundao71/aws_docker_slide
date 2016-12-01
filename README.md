@@ -11,7 +11,7 @@ class: center, middle, inverse
 layout:false
 ## はじめに
 
-* ニチガスの申込画面を一人で作っていて、ローカルはDockerで動かしているけど、本番もDockerで運用できないか
+* 申込画面を一人で作っていて、ローカルはDockerで動かしているけど、本番もDockerで運用できないか
 
 * 余談ですが仮想通貨の発表しようと思ったんですけど、こちらの知見の方が需要と実用性がありそうなので、こちらを選択
 
@@ -56,7 +56,7 @@ Beanstalkはインスタンスやネットワーク、RDSをまとめて作成�
 
 * コンソール上でリポジトリ作ると、下図のようにawsコマンドが出るので、それを叩けば簡単にimageをpushできる。s3の料金しかかからない
 
-<img src="images/ecr.png" width="650px">
+<img src="images/ecr.png" width="400px">
 
 ---
 ## BeanstalkのMulti-Container Docker
